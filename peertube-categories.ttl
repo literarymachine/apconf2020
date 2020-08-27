@@ -1,0 +1,86 @@
+@base <https://w3id.org/kim/hcrt/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+
+<scheme> a skos:ConceptScheme;
+        dct:title "PeerTube Categories"@en, "PeerTube-Kategorien"@de;
+        dct:description "The list of categories used in PeerTube software"@de ;
+        dct:issued "2020-08-27" ;
+        dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        skos:hasTopConcept <Music>, <Vehicles>, <Films>, <Art>, <Sports>, <Travels>, <Gaming>,
+            <People>, <Comedy>, <Entertainment>, <NewsPolitics>, <HowTo>, <Education>, <Activism>, 
+            <ScienceTechnology>, <Animals>, <Kids>, <Food>, <slide>, <text>, <video>, <web_page>,
+            <worksheet>, <other> .
+
+<Music> a skos:Concept;
+           skos:topConceptOf <scheme> ;
+           skos:prefLabel "Musik"@de, "Music"@en .
+
+<Vehicles> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Fahrzeuge"@de, "Vehicles"@en .
+
+<Films> a skos:Concept;
+           skos:topConceptOf <scheme> ;
+           skos:prefLabel "Filme"@de, "Films"@en .
+
+<Art> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Kunst"@de, "Art"@en .
+
+<Sports> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Sport"@de, "Sports"@en .
+
+<Travels> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Reisen"@de, "Travels"@en .
+
+<Gaming> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Spiele"@de, "Gaming"@en .
+
+<People> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Menschen"@de, "People"@en .
+
+<Comedy> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Comedy"@de, "Comedy"@en .
+
+<Entertainment> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Unterhaltung"@de, "Experiment"@en .
+
+<NewsPolitics> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Nachrichten & Politk"@de, "News & Politics"@en .
+
+<HowTo> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Anleitung"@de, "How To"@en .
+
+<Education> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Bildung"@de, "Education"@en .
+
+<Activism> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Aktivismus"@de, "Activism"@en .
+
+<ScienceTechnology> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Wissenschaft & Technologie"@de, "Science & Technology"@en .
+
+<Animals> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Tiere"@de, "Animals"@en .
+
+<Kids> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Kinder"@de, "Kids"@en .
+
+<Food> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Essen"@de, "Food"@en .

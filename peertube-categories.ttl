@@ -5,7 +5,7 @@
 
 <scheme> a skos:ConceptScheme;
         dct:title "PeerTube Categories"@en, "PeerTube-Kategorien"@de;
-        dct:description "The list of categories used in PeerTube software"@de ;
+        dct:description "The list of categories used in PeerTube software"@en ;
         dct:issued "2020-08-27" ;
         dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
         skos:hasTopConcept <Music>, <Vehicles>, <Films>, <Art>, <Sports>, <Travels>, <Gaming>,
